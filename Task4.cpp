@@ -42,7 +42,7 @@ int main() {
 		basePrice = 16;
 		break;
 	}
-	if (format == 'I' || format == 'i') {
+	if (format == 'I') {
 		basePrice = basePrice + 5;
 	}
 	if (age < 7) {
