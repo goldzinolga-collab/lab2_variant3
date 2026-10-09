@@ -23,10 +23,10 @@ int main() {
 		cout << "Error: invalid age" << endl;
 		return 1;
 	}
-	if (format != 'N' && format != 'n' && format != 'I' && format != 'i') {
-		cout << "Error: invalid format" << endl;
-		return 1;
-	}
+	if (format != 'N' && format != 'I') {
+    cout << "Error: invalid format! Only uppercase N or I allowed." << endl;
+    return 1;
+}
 	switch (day) {
 	case 1:
 	case 2:
